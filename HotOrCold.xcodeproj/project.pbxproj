@@ -20,6 +20,13 @@
 		107F624F1B5B516900EA6048 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107F624E1B5B516900EA6048 /* ExtensionDelegate.swift */; };
 		107F62511B5B516900EA6048 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107F62501B5B516900EA6048 /* NotificationController.swift */; };
 		107F62531B5B516900EA6048 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 107F62521B5B516900EA6048 /* Assets.xcassets */; };
+		107F62631B5B5B3000EA6048 /* MapInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107F62621B5B5B3000EA6048 /* MapInterfaceController.swift */; };
+		10F43BC21B60CF8400304867 /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F43BBD1B60CF8400304867 /* MMWormhole.m */; };
+		10F43BC31B60CF8400304867 /* MMWormhole.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F43BBD1B60CF8400304867 /* MMWormhole.m */; };
+		10F43BC41B60CF8400304867 /* MMWormholeCoordinatedFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F43BBF1B60CF8400304867 /* MMWormholeCoordinatedFileTransiting.m */; };
+		10F43BC51B60CF8400304867 /* MMWormholeCoordinatedFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F43BBF1B60CF8400304867 /* MMWormholeCoordinatedFileTransiting.m */; };
+		10F43BC61B60CF8400304867 /* MMWormholeFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F43BC11B60CF8400304867 /* MMWormholeFileTransiting.m */; };
+		10F43BC71B60CF8400304867 /* MMWormholeFileTransiting.m in Sources */ = {isa = PBXBuildFile; fileRef = 10F43BC11B60CF8400304867 /* MMWormholeFileTransiting.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +90,15 @@
 		107F62501B5B516900EA6048 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
 		107F62521B5B516900EA6048 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		107F62541B5B516900EA6048 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		107F62621B5B5B3000EA6048 /* MapInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapInterfaceController.swift; sourceTree = "<group>"; };
+		10F43B921B60ACE100304867 /* HotOrCold.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = HotOrCold.entitlements; sourceTree = "<group>"; };
+		10F43BAA1B60CD1700304867 /* HotOrCold WatchKit Extension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HotOrCold WatchKit Extension-Bridging-Header.h"; sourceTree = "<group>"; };
+		10F43BBC1B60CF8400304867 /* MMWormhole.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMWormhole.h; sourceTree = "<group>"; };
+		10F43BBD1B60CF8400304867 /* MMWormhole.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMWormhole.m; sourceTree = "<group>"; };
+		10F43BBE1B60CF8400304867 /* MMWormholeCoordinatedFileTransiting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMWormholeCoordinatedFileTransiting.h; sourceTree = "<group>"; };
+		10F43BBF1B60CF8400304867 /* MMWormholeCoordinatedFileTransiting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMWormholeCoordinatedFileTransiting.m; sourceTree = "<group>"; };
+		10F43BC01B60CF8400304867 /* MMWormholeFileTransiting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMWormholeFileTransiting.h; sourceTree = "<group>"; };
+		10F43BC11B60CF8400304867 /* MMWormholeFileTransiting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMWormholeFileTransiting.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,16 +116,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1DDC03077699F1817D0CC348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		107F621B1B5B516900EA6048 = {
 			isa = PBXGroup;
 			children = (
+				10F43BBC1B60CF8400304867 /* MMWormhole.h */,
+				10F43BBD1B60CF8400304867 /* MMWormhole.m */,
+				10F43BBE1B60CF8400304867 /* MMWormholeCoordinatedFileTransiting.h */,
+				10F43BBF1B60CF8400304867 /* MMWormholeCoordinatedFileTransiting.m */,
+				10F43BC01B60CF8400304867 /* MMWormholeFileTransiting.h */,
+				10F43BC11B60CF8400304867 /* MMWormholeFileTransiting.m */,
 				107F62261B5B516900EA6048 /* HotOrCold */,
 				107F623A1B5B516900EA6048 /* HotOrCold WatchKit App */,
 				107F62491B5B516900EA6048 /* HotOrCold WatchKit Extension */,
 				107F62251B5B516900EA6048 /* Products */,
+				10F43BAA1B60CD1700304867 /* HotOrCold WatchKit Extension-Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -126,6 +156,7 @@
 		107F62261B5B516900EA6048 /* HotOrCold */ = {
 			isa = PBXGroup;
 			children = (
+				10F43B921B60ACE100304867 /* HotOrCold.entitlements */,
 				107F62271B5B516900EA6048 /* AppDelegate.swift */,
 				107F62291B5B516900EA6048 /* ViewController.swift */,
 				107F622B1B5B516900EA6048 /* Main.storyboard */,
@@ -150,6 +181,7 @@
 			isa = PBXGroup;
 			children = (
 				107F624C1B5B516900EA6048 /* InterfaceController.swift */,
+				107F62621B5B5B3000EA6048 /* MapInterfaceController.swift */,
 				107F624E1B5B516900EA6048 /* ExtensionDelegate.swift */,
 				107F62501B5B516900EA6048 /* NotificationController.swift */,
 				107F62521B5B516900EA6048 /* Assets.xcassets */,
@@ -195,6 +227,7 @@
 			buildPhases = (
 				107F62341B5B516900EA6048 /* Resources */,
 				107F625A1B5B516900EA6048 /* Embed App Extensions */,
+				1DDC03077699F1817D0CC348 /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -229,11 +262,18 @@
 		107F621C1B5B516900EA6048 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = aks;
 				TargetAttributes = {
 					107F62231B5B516900EA6048 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = GMX68UR7FQ;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 					107F62351B5B516900EA6048 = {
 						CreatedOnToolsVersion = 7.0;
@@ -300,6 +340,9 @@
 			files = (
 				107F622A1B5B516900EA6048 /* ViewController.swift in Sources */,
 				107F62281B5B516900EA6048 /* AppDelegate.swift in Sources */,
+				10F43BC61B60CF8400304867 /* MMWormholeFileTransiting.m in Sources */,
+				10F43BC41B60CF8400304867 /* MMWormholeCoordinatedFileTransiting.m in Sources */,
+				10F43BC21B60CF8400304867 /* MMWormhole.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,8 +350,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				10F43BC51B60CF8400304867 /* MMWormholeCoordinatedFileTransiting.m in Sources */,
 				107F62511B5B516900EA6048 /* NotificationController.swift in Sources */,
+				10F43BC71B60CF8400304867 /* MMWormholeFileTransiting.m in Sources */,
+				10F43BC31B60CF8400304867 /* MMWormhole.m in Sources */,
 				107F624F1B5B516900EA6048 /* ExtensionDelegate.swift in Sources */,
+				107F62631B5B5B3000EA6048 /* MapInterfaceController.swift in Sources */,
 				107F624D1B5B516900EA6048 /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,12 +487,15 @@
 		107F62581B5B516900EA6048 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "HotOrCold WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = aks.HotOrCold.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "HotOrCold WatchKit Extension-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -454,12 +504,14 @@
 		107F62591B5B516900EA6048 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = "HotOrCold WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = aks.HotOrCold.watchkitapp.watchkitextension;
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "HotOrCold WatchKit Extension-Bridging-Header.h";
 				TARGETED_DEVICE_FAMILY = 4;
 				WATCHOS_DEPLOYMENT_TARGET = 2.0;
 			};
@@ -501,10 +553,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HotOrCold/HotOrCold.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HotOrCold/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = aks.HotOrCold;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "HotOrCold WatchKit Extension-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -512,10 +569,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = HotOrCold/HotOrCold.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = HotOrCold/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = aks.HotOrCold;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "HotOrCold WatchKit Extension-Bridging-Header.h";
+				"SWIFT_OBJC_BRIDGING_HEADER[arch=*]" = "";
 			};
 			name = Release;
 		};
@@ -538,6 +601,7 @@
 				107F62591B5B516900EA6048 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		107F625B1B5B516900EA6048 /* Build configuration list for PBXNativeTarget "HotOrCold WatchKit App" */ = {
 			isa = XCConfigurationList;
@@ -546,6 +610,7 @@
 				107F625D1B5B516900EA6048 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		107F625F1B5B516900EA6048 /* Build configuration list for PBXNativeTarget "HotOrCold" */ = {
 			isa = XCConfigurationList;
@@ -554,6 +619,7 @@
 				107F62611B5B516900EA6048 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

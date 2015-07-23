@@ -1,16 +1,41 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="6724" systemVersion="14A389" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="8152.3" systemVersion="14F6a" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="AgC-eL-Hgc">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6711"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="3735"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8124.4"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="8077.2"/>
     </dependencies>
     <scenes>
         <!--Interface Controller-->
         <scene sceneID="aou-V4-d1y">
             <objects>
-                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModuleProvider="target"/>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="HotOrCold_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <button width="1" alignment="left" title="Play" id="4h4-eE-jld">
+                            <connections>
+                                <action selector="startGame" destination="AgC-eL-Hgc" id="dTP-8v-sbg"/>
+                                <segue destination="Dfo-tS-dFF" kind="push" id="JJC-Uv-5KO"/>
+                            </connections>
+                        </button>
+                    </items>
+                </controller>
             </objects>
             <point key="canvasLocation" x="220" y="345"/>
+        </scene>
+        <!--Map Interface Controller-->
+        <scene sceneID="HxH-gW-8vB">
+            <objects>
+                <controller hidesWhenLoading="NO" id="Dfo-tS-dFF" customClass="MapInterfaceController" customModule="HotOrCold_WatchKit_Extension">
+                    <items>
+                        <map height="100" alignment="left" id="jYN-1n-nCP"/>
+                        <label width="136" height="33" alignment="left" text="Label" id="jNR-Vd-wis"/>
+                    </items>
+                    <connections>
+                        <outlet property="coordsLabel" destination="jNR-Vd-wis" id="Eeb-zu-phm"/>
+                        <outlet property="map" destination="jYN-1n-nCP" id="foy-Kx-cuC"/>
+                    </connections>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="461" y="339.5"/>
         </scene>
         <!--Static Notification Interface Controller-->
         <scene sceneID="AEw-b0-oYE">
@@ -31,7 +56,7 @@
         <!--Notification Controller-->
         <scene sceneID="ZPc-GJ-vnh">
             <objects>
-                <controller id="4sK-HA-Art" customClass="NotificationController" customModuleProvider="target"/>
+                <controller id="4sK-HA-Art" customClass="NotificationController" customModule="HotOrCold_WatchKit_App" customModuleProvider="target"/>
             </objects>
             <point key="canvasLocation" x="468" y="643"/>
         </scene>

@@ -5,6 +5,50 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "107F62351B5B516900EA6048"
+               BuildableName = "HotOrCold WatchKit App.app"
+               BlueprintName = "HotOrCold WatchKit App"
+               ReferencedContainer = "container:HotOrCold.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "107F62231B5B516900EA6048"
+               BuildableName = "HotOrCold.app"
+               BlueprintName = "HotOrCold"
+               ReferencedContainer = "container:HotOrCold.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "107F62441B5B516900EA6048"
+               BuildableName = "HotOrCold WatchKit Extension.appex"
+               BlueprintName = "HotOrCold WatchKit Extension"
+               ReferencedContainer = "container:HotOrCold.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -13,6 +57,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "107F62351B5B516900EA6048"
+            BuildableName = "HotOrCold WatchKit App.app"
+            BlueprintName = "HotOrCold WatchKit App"
+            ReferencedContainer = "container:HotOrCold.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +79,27 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/HotOrCold WatchKit App">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "107F62351B5B516900EA6048"
+            BuildableName = "HotOrCold WatchKit App.app"
+            BlueprintName = "HotOrCold WatchKit App"
+            ReferencedContainer = "container:HotOrCold.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "107F62351B5B516900EA6048"
+            BuildableName = "HotOrCold WatchKit App.app"
+            BlueprintName = "HotOrCold WatchKit App"
+            ReferencedContainer = "container:HotOrCold.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +109,27 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <RemoteRunnable
+         runnableDebuggingMode = "2"
+         BundleIdentifier = "com.apple.carousel"
+         RemotePath = "/HotOrCold WatchKit App">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "107F62351B5B516900EA6048"
+            BuildableName = "HotOrCold WatchKit App.app"
+            BlueprintName = "HotOrCold WatchKit App"
+            ReferencedContainer = "container:HotOrCold.xcodeproj">
+         </BuildableReference>
+      </RemoteRunnable>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "107F62351B5B516900EA6048"
+            BuildableName = "HotOrCold WatchKit App.app"
+            BlueprintName = "HotOrCold WatchKit App"
+            ReferencedContainer = "container:HotOrCold.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
